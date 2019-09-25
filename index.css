@@ -1,0 +1,106 @@
+body{
+	font-family: arial, sans serif;
+}
+
+h1{  
+	text-align:  center;
+
+}
+
+#nav{
+	display: flex;
+	padding-right: 80px;
+	justify-content: flex-end;
+
+}
+.Gmail,.Images{
+ padding-right: 20px;
+
+}
+
+
+#nav button{
+	color: white;
+	background-color: #478bf9;
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+
+}
+
+.logo {
+	width: 300px;
+}
+
+#recherche{
+	display: flex;
+	justify-content: center;
+	height: 30px;
+	border: 0;
+	
+
+
+
+}
+
+#conteneur {
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+}
+ 
+#conteneur2{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 300px;
+}
+
+#conteneur2 button {
+	padding-right: 20px;
+	width: 200px;
+	height: 50px;
+	border-radius: 5px;
+
+}
+#France{
+	border: 10px solid white;
+	margin:auto;
+	border-radius: 5px;
+	
+}
+
+#foot {
+	display: flex;
+	border-radius: 5px;
+	justify-content: space-between;
+
+}
+
+#footer {
+
+	display: flex;
+	
+	
+	
+	
+	
+
+	
+}
+#footer .Publicité,.Entreprise,.Apropos,.Comment{
+	padding-right: 20px;
+	flex-direction: row;
+}
+
+#footer2{
+	display: flex;
+	justify-content: flex-end;
+	margin:auto;
+	padding-left: 400px;
+}
+
+#footer2 .info,.Confidentialité,.Conditions,.Parametres{
+	padding-right:  40px;
+}
